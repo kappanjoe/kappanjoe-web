@@ -1,10 +1,15 @@
+@font-face {
+  font-family: 'AUTHENTIC SANS';
+  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-60.woff2') format('woff2'),
+    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-90.woff2') format('woff2'),
+    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-130.woff2') format('woff2'),
+    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-150.woff2') format('woff2');
+}
+
 body {
   background-color: color(display-p3 0.006 0.068 0.195 / 1);
   color: #ddd;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: 'AUTHENTIC SANS', sans-serif;
   padding: 18vh 1rem;
   text-align: left;
 }
