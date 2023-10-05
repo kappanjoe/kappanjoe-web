@@ -1,15 +1,31 @@
 @font-face {
-  font-family: 'AUTHENTIC SANS';
-  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-60.woff2') format('woff2'),
-    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-90.woff2') format('woff2'),
-    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-130.woff2') format('woff2'),
-    url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-150.woff2') format('woff2');
+  font-family: 'AUTHENTIC SANS 60';
+  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-60.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AUTHENTIC SANS 90';
+  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-90.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AUTHENTIC SANS 130';
+  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-130.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AUTHENTIC SANS 150';
+  src: url('/fonts/AUTHENTIC SANS 210330/woff/AUTHENTICSans-Condensed-150.woff2') format('woff2');
+}
+
+* {
+  font-weight: unset;
 }
 
 body {
   background-color: color(display-p3 0.006 0.068 0.195 / 1);
   color: #ddd;
-  font-family: 'AUTHENTIC SANS', sans-serif;
+  font-family: 'AUTHENTIC SANS 60', sans-serif;
   padding: 18vh 1rem;
   text-align: left;
 }
@@ -23,7 +39,18 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+heading {
+  font-weight: unset !important;
+}
+
+h1 {
+  font-family: 'AUTHENTIC SANS 130', sans-serif;
+}
+
+h2 {
+  font-family: 'AUTHENTIC SANS 90', sans-serif;
+}
+
+.stricken {
+  text-decoration: line-through;
 }
