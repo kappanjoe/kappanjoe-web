@@ -51,6 +51,25 @@ h2 {
   font-family: 'AUTHENTIC SANS 90', sans-serif;
 }
 
+.cursor-char {
+  color: rgba(#cfc, 0.7);
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity:0
+    }
+
+    50% {
+        opacity:1
+    }
+
+    to {
+        opacity:0
+    }
+}
+
 .stricken {
   text-decoration: line-through;
 }
